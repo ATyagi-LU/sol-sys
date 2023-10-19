@@ -1,8 +1,8 @@
-public class Planet extends CelestialBody {
+public class Moon extends CelestialBody {
 
     private CelestialBody oribtron;
 
-    public Planet(CelestialBody orbitron, double diameter, double velocity, String col, double angle, SolarSystem sys,
+    public Moon(Planet orbitron, double diameter, double velocity, String col, double angle, SolarSystem sys,
             double distance) {
         super(diameter, velocity, col, angle, sys, distance);
         this.oribtron = orbitron;

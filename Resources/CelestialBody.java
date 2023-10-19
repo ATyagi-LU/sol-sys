@@ -18,17 +18,15 @@ public class CelestialBody implements SolarSystemInterface {
 
     }
 
-
     public void drawBody() {
         sys.drawSolarObject(distance, angle, diameter, col);
     }
 
-
-    public double getAngle(){
+    public double getAngle() {
         return angle;
     }
 
-    public double getDistance(){
+    public double getDistance() {
         return distance;
     }
 
