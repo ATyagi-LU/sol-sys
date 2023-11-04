@@ -1,6 +1,6 @@
 public class Moon extends CelestialBody {
 
-    private CelestialBody oribtron; //The planet that the planet rotates around
+    private Planet oribtron; //The planet that the planet rotates around
 
     //constructor using super and adding orbitron.
     public Moon(Planet orbitron, double diameter, double velocity, String col, double angle, SolarSystem sys,
