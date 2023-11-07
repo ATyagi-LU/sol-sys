@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"SolarSystem"}]
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"CelestialBody"},{"p":"<Unnamed>","l":"Moon"},{"p":"<Unnamed>","l":"Planet"},{"p":"<Unnamed>","l":"SolarSystem"},{"p":"<Unnamed>","l":"SolarSystemRun"}];updateSearchResults();
