@@ -1,6 +1,6 @@
 public class SolarSystemRun {
     public static void main(String[] args) {
-        SolarSystem sys = new SolarSystem(1200, 1200); // Initialising Solar System object
+        SolarSystem sys = new SolarSystem(1200, 1000); // Initialising Solar System object
         CelestialBody sun = new CelestialBody(sys); // CelestialBody default constructor (Sun)
         Planet mercury = new Planet(sun, 6, 6.750, "WHITE", 0, sys, 50); // Planet object (Mercury)
         Planet venus = new Planet(sun, 13, 1.626, "GREEN", 0, sys, 60); // Planet object (Pluto)
